@@ -1,0 +1,97 @@
+git --version
+
+git config --global user.name "AbdullahGomaa"
+
+$ git config --global user.email "Abdullah.Gomaa@"
+
+start .
+
+git status
+
+git init
+
+git add file.txt
+
+git commit
+
+git commit -m "my message"
+
+git add .
+
+wq
+
+ git config --global core.editor "code --wait"
+
+git log --oneline
+
+git commit --amend
+
+
+touch .gitignore // Add to it secrets.txt
+
+git add .gitignore
+
+git commit -m "Add .gitignore file"
+
+
+git branch
+
+git branch branchName
+
+git switch branchName = git checkout branchName
+
+git switch -c MakeNewBrachAndGoToIt = git checkout -b MakeNewBrachAndGoToIt 
+
+git branch -d deleteMe
+
+git branch -D deleteMe
+
+git branch -m newName
+
+git merge branchName
+
+git diff
+
+git diff Head
+
+git diff --staged
+
+git diff --cached
+
+git diff Head fileName
+
+git diff branch1 branch2
+
+git diff commit1 commit2
+
+git stash 
+
+git stash pop 
+
+git stash push
+
+git stash apply
+
+git stash list
+
+git stash drop stash@{number}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+............
+
+Every time we want use git we need to create a new git repository
+
+
