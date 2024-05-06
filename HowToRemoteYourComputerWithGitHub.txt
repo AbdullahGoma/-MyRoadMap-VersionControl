@@ -1,0 +1,13 @@
+1- Go to your Github Account
+2- Go to settings
+3- Go to SSH and GPG keys
+4- New SSH key
+5- Go to Git Bash
+
+In Git Bash:
+1- git config user.email
+2- ssh-keygen -t ed25519 -C "your email"
+3- eval "$(ssh-agent -s)"
+4- ssh-add c:/Users/asm/.ssh/id_ed25519
+5- clip < ~/.ssh/id_ed25519.pub
+Go to github and do "ctrl+v" in Add new SSH Key and Add any title that you want 

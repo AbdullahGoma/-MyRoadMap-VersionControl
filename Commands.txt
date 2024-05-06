@@ -76,6 +76,70 @@ git stash list
 
 git stash drop stash@{number}
 
+git checkout commitHash (Atatched Head)
+
+git switch master (reAtatch)
+
+git checkout HEAD~number
+
+git switch -
+
+git checkout HEAD filename = git checkout -- filename
+
+git restore filename
+
+git restore --source HEAD~number filename
+
+git restore --staged filename (Unstaged File)
+
+git reset commitHash =then=> Add and Commit them to another branch =then=> git switch master =then=> remove the branch that commited badStuff in it
+
+git reset --hard commitHash 
+
+git revert commitHash
+
+git revert --quit
+
+
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
+
+
+1- Go to your Github Account
+2- Go to settings
+3- Go to SSH and GPG keys
+4- New SSH key
+5- Go to Git Bash
+
+In Git Bash:
+1- git config user.email
+2- ssh-keygen -t ed25519 -C "your email"
+3- eval "$(ssh-agent -s)"
+4- ssh-add c:/Users/asm/.ssh/id_ed25519
+5- clip < ~/.ssh/id_ed25519.pub
+Go to github and do "ctrl+v" in Add new SSH Key and Add any title that you want 
+
+
+git remote add CPP_Codes https://github.com/AbdullahGoma/CPP_Codes.git
+
+git remote rename old new
+
+git remote remove name
+
+git branch -M main
+
+git push -u origin main
+
+git remote -v
+
+MyRoadMap-C
+
+
+
+
+
+
+
+
 
 
 
